@@ -8,17 +8,27 @@
 
 Open `index.html` to browse all 31 modules with animated mini-demos, or open any individual module file directly in a browser.
 
-## Install as a Claude Code Skill
+## Install
+
+**Step 1:** Clone the repo
 
 ```bash
-claude --add-dir /path/to/cinematic-sites
+git clone https://github.com/robonuggets/cinematic-site-components.git
 ```
 
-Then invoke:
+**Step 2:** Add it to Claude Code
+
+```bash
+claude --add-dir ./cinematic-site-components
+```
+
+**Step 3:** Use it
 
 ```
 /cinematic-modules dark agency portfolio with scroll animation
 ```
+
+That's it. The skill is now available in your Claude Code session. You can also just browse the modules directly — open any `.html` file in a browser.
 
 ## The 31 Cinematic Modules
 

@@ -4,6 +4,13 @@ A library of 31 cinematic website modules + a Claude Code skill that picks and c
 
 ## Quick Start
 
+```bash
+git clone https://github.com/robonuggets/cinematic-site-components.git
+claude --add-dir ./cinematic-site-components
+```
+
+Then:
+
 ```
 /cinematic-modules dark SaaS landing page with scroll animation and feature section
 ```
